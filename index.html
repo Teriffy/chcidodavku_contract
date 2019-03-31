@@ -17,7 +17,7 @@
 
 
         <div class="col-4">
-          <h1>Půjč si mě - vytvořit smlouvu</h1>
+          <h1>Půjč si mě <span class="badge badge-warning">vytvoření smlouvy</span></h1>
           <hr>
         <form class="form-horizontal">
             <div class="form-group row">
@@ -117,6 +117,9 @@
                           <span class="input-group-text" id="basic-addon1"><i class="fas fa-coins"></i></span>
                         </div>
                     <input id="text2" name="text2" type="text" class="form-control">
+                    <div class="input-group-append">
+                        <span class="input-group-text">,- Kč</span>
+                      </div>
                   </div>
                 </div>
                 <div class="form-group row">
@@ -130,13 +133,13 @@
                       <option value="Mercedes Benz 210 2010 Bílý, RZ: 3SZ 1949">Mercedes Benz 210 2010 Bílý, RZ: 3SZ 1949</option>
                       <option value="Volkswagen Transporter 5 2006 Modrý, 3k7 0996">Volkswagen Transporter 5 2006 Modrý, 3k7 0996</option>
                       <option value="Mercedes Benz 313 2006 Bílý - Okna">Mercedes Benz 313 2006 Bílý - Okna</option>
-                      <option value="">Mercedes Benz 315 2006 Bílý MAXI</option>
+                      <option value="Mercedes Benz 315 2006 Bílý MAXI">Mercedes Benz 315 2006 Bílý MAXI</option>
                     </select>
                   </div>
                 </div> 
             <div class="form-group row">
               <div class="offset-4 col-8">
-                <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                <button name="submit" type="submit" class="btn btn-warning btn-lg btn-block">Vytvořit smlouvu</button>
               </div>
             </div>
 </form>
