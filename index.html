@@ -12,9 +12,13 @@
     </head>
 
     <body>
-     
-        <div class="col-4 offset-md-4" style="margin-top: 50px;">
-          <h1>Půjč si mě <span class="badge badge-warning">vytvoření smlouvy</span></h1>
+        <div style="text-align: right;
+        padding: 5px 20px;">
+            <a href="https://calendar.google.com/calendar/r" target="_blank" title="Otevřít kalendář"><i class="fas fa-calendar-alt"></i></a>
+          </div>
+
+        <div class="col-4 offset-md-4" style="margin-top: 10px;">
+          <h1 style="display:inline-block">Půjč si mě <span class="badge badge-warning">vytvoření smlouvy</span></h1>
           <hr>
         <form class="form-horizontal" action="form.php">
             <div class="form-group row">
@@ -163,7 +167,8 @@
                 </div> 
             <div class="form-group row">
               <div class="offset-4 col-8">
-                <button name="submit" type="submit" class="btn btn-warning btn-lg btn-block">Vytvořit smlouvu</button>
+                <button name="submit" type="submit" class="btn btn-warning btn-lg btn-block"><i class="fas fa-file-signature"></i> Vytvořit smlouvu</button>
+                <button name="" type="" disabled class="btn btn-warning btn-lg btn-block"><i class="fas fa-receipt"></i> Vytvořit doklad</button>
               </div>
             </div>
 </form>
